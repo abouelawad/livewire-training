@@ -1,3 +1,3 @@
 <div>
-    {{-- Nothing in the world is as soft and yielding as water. --}}
+Full comp Class we have just created
 </div>

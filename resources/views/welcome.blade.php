@@ -41,9 +41,13 @@
                 </div>
 
                 <div class="mt-16">
-                    @livewire('show-post')
-                    <livewire:show-post/>
-                    <livewire:post.show/>
+                        hello
+                        {{-- @livewire('test-properties',['name'=>'Mahmoud'])                
+                        @livewire('test-properties',['name'=>'sayed'])                
+                        @livewire('test-properties',['name'=>'Ahmed'])     
+                        <livewire:test-properties name="athc" />          --}}
+                        <livewire:test-actions/>
+
                 </div>
 
                 <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">

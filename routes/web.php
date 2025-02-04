@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Livewire\FullComp;
+use App\Http\Livewire\TestProperties;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,3 +31,6 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/full-comp',FullComp::class);
+// Route::get('/testproperties',TestProperties::class);
