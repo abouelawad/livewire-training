@@ -46,7 +46,11 @@
                         @livewire('test-properties',['name'=>'sayed'])                
                         @livewire('test-properties',['name'=>'Ahmed'])     
                         <livewire:test-properties name="athc" />          --}}
-                        <livewire:test-actions/>
+                        {{-- <livewire:test-actions/> --}}
+
+                        @livewire('first-event')
+                        @livewire('second-event')
+                        @livewire('third-event')
 
                 </div>
 
