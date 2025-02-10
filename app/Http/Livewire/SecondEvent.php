@@ -10,7 +10,7 @@ class SecondEvent extends Component
     
 
     public function fire(){
-        dump ('I am ambulance');
+        dd ('I am ambulanceeeeeeeeeeee');
     }
     public function render()
     {

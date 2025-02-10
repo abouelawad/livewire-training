@@ -10,7 +10,7 @@ class ThirdEvent extends Component
 
     public function fire()
     {
-        dump('iam fire fighting');
+        dd('iam fire fightingggggggggggggg');
     }
 
     public function render()
