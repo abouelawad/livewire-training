@@ -17,6 +17,10 @@ class ValidationComponent extends Component
         'remember'=> 'nullable',
     ];
 
+    public function updated(){
+        $this->validate();
+    }
+
     public function submit()
     {
         $this->validate();
