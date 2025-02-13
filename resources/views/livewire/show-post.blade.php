@@ -1,4 +1,4 @@
 <div>
-    welcome to livewire component  any
+    welcome to livewire component  with the {{ $name }}
 </div>
 

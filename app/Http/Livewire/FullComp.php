@@ -6,6 +6,7 @@ use Livewire\Component;
 
 class FullComp extends Component
 {
+    public $name = 'alo';
 
     public function render()
     {
