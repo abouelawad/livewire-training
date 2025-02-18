@@ -53,9 +53,10 @@
                         @livewire('third-event') --}}
 
                         {{-- <livewire:try-hooks/> --}}
-                        @livewire('file-component')
+                        {{-- @livewire('file-component') --}}
 
                          {{-- <livewire:validation-component> --}}
+                            <livewire:search-component>
 
                        
                 </div>
