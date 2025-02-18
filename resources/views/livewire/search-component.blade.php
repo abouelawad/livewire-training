@@ -18,7 +18,11 @@
 					<td>{{ $post->name }}</td>
 				</tr>
                 @endforeach
-			@endif
+			@else
+            <tr>
+                <td>no item found</td>
+            </tr>
+            @endif
 
 		</tbody>
 	</table>
